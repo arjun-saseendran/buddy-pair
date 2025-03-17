@@ -5,6 +5,7 @@ import { SubscriptionPlan } from "./components/modal/SubscriptionPlan";
 import { UpdateSMSSetting } from "./components/settings/UpdateSMSSetting";
 import { UpdateMailSetting } from "./components/settings/UpdateMailSetting";
 import {AddExpense} from "./components/addexpense/AddExpense.jsx";
+import { Invoice } from "./components/Invoice/Invoice.jsx";
 
 export const App = () => {
   return (
@@ -15,7 +16,8 @@ export const App = () => {
       {/* <SubscriptionPlan/> */}
       {/*<UpdateSMSSetting/>*/}
       {/*<UpdateMailSetting/>*/}
-     <AddExpense/>
+     {/* <AddExpense/> */}
+     <Invoice/>
     </>
   );
 };
