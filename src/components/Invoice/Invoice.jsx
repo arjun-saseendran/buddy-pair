@@ -41,9 +41,11 @@ export const Invoice = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-around 
+        <div
+          className="flex justify-around 
         px-2 md:text-regular text-[6px] md:text-base gap-1 md:gap-0 w-52 md:w-auto 
-        items-center md:flex-wrap-none bg-white py-3 rounded-xl">
+        items-center md:flex-wrap-none bg-white py-3 rounded-xl"
+        >
           <div>
             <input type="checkbox" />
           </div>
@@ -63,10 +65,12 @@ export const Invoice = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-around items-center 
+        <div
+          className="flex justify-around items-center 
         px-2 md:text-regular text-[6px] md:text-base gap-1 md:gap-0 w-52 md:w-auto 
         
-        bg-white py-3 rounded-xl">
+        bg-white py-3 rounded-xl"
+        >
           <div>
             <input type="checkbox" />
           </div>
@@ -86,9 +90,11 @@ export const Invoice = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-around items-center 
+        <div
+          className="flex justify-around items-center 
         px-2 md:text-regular text-[6px] md:text-base gap-1 md:gap-0 w-52 md:w-auto 
-           bg-white py-3 rounded-xl">
+           bg-white py-3 rounded-xl"
+        >
           <div>
             <input type="checkbox" />
           </div>
