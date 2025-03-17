@@ -4,6 +4,7 @@ import { UserProfile } from "./components/userprofile/UserProfile";
 import { SubscriptionPlan } from "./components/modal/SubscriptionPlan";
 import { UpdateSMSSetting } from "./components/settings/UpdateSMSSetting";
 import { UpdateMailSetting } from "./components/settings/UpdateMailSetting";
+import {AddExpense} from "./components/addexpense/AddExpense.jsx";
 
 export const App = () => {
   return (
@@ -12,9 +13,9 @@ export const App = () => {
       <SideBar />
       {/* <UserProfile/> */}
       {/* <SubscriptionPlan/> */}
-      <UpdateSMSSetting/>
-      <UpdateMailSetting/>
-     
+      {/*<UpdateSMSSetting/>*/}
+      {/*<UpdateMailSetting/>*/}
+     <AddExpense/>
     </>
   );
 };
