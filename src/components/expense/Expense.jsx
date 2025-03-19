@@ -33,7 +33,7 @@ export const Expense = () => {
         <div className="flex items-center justify-between">
           <div className="flex gap-3">
             <div>
-              <img className="bg-[#c1bbec] rounded-full w-10 h-10" />
+              <img className="bg-[#ff4550] rounded-full w-10 h-10" />
             </div>
 
             <div>
@@ -49,7 +49,7 @@ export const Expense = () => {
         <div className="flex items-center justify-between">
           <div className="flex gap-3">
             <div>
-              <img className="bg-[#c1bbec] rounded-full w-10 h-10" />
+              <img className="bg-[#ff4550] rounded-full w-10 h-10" />
             </div>
 
             <div>
@@ -65,7 +65,7 @@ export const Expense = () => {
         <div className="flex items-center justify-between">
           <div className="flex gap-3">
             <div>
-              <img className="bg-[#c1bbec] rounded-full w-10 h-10" />
+              <img className="bg-[#ff4550] rounded-full w-10 h-10" />
             </div>
 
             <div>
@@ -81,7 +81,7 @@ export const Expense = () => {
         <div className="flex items-center justify-between">
           <div className="flex gap-3">
             <div>
-              <img className="bg-[#c1bbec] rounded-full w-10 h-10" />
+              <img className="bg-[#ff4550] rounded-full w-10 h-10" />
             </div>
 
             <div>
@@ -97,7 +97,7 @@ export const Expense = () => {
         <div className="flex items-center justify-between">
           <div className="flex gap-3">
             <div>
-              <img className="bg-[#c1bbec] rounded-full w-10 h-10" />
+              <img className="bg-[#ff4550] rounded-full w-10 h-10" />
             </div>
 
             <div>
@@ -113,7 +113,7 @@ export const Expense = () => {
         <div className="flex items-center justify-between">
           <div className="flex gap-3">
             <div>
-              <img className="bg-[#c1bbec] rounded-full w-10 h-10" />
+              <img className="bg-[#ff4550] rounded-full w-10 h-10" />
             </div>
 
             <div>
