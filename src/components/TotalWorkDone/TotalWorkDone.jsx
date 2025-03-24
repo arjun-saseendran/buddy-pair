@@ -11,7 +11,7 @@ export const TotalWorkDone = () => {
     return (
         <div className='bg-white w-96 h-96 rounded-xl shadow-xl mx-auto my-10 p-10'>
             <div className='flex justify-between items-center '>
-                <div className='font-bold'>
+              <div className='font-bold text-xl md:text-base'>
                     Total work done
                 </div>
 

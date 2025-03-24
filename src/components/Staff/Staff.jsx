@@ -8,7 +8,7 @@ export const Staff = () => {
                 <div className='text-pink-300 font-bold'>View all</div>
             </div>
 
-            <div className='grid grid-cols-3 gap-10 mt-10'>
+            <div className='grid md:grid-cols-3 gap-10 mt-10'>
 
                 <div className='text-center text-gray-600'>
                     <img className='rounded-xl ' src="../../../public/staff.avif" alt="staff photo"/>
