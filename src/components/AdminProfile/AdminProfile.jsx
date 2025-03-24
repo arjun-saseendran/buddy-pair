@@ -27,20 +27,20 @@ export const AdminProfile = () => {
             <hr className='mx-10 mt-4'/>
 
             <div className='flex justify-center items-center gap-2 mt-4 ms-7'>
-            <div>
-                <HiOutlineUserAdd className='text-gray-700'/>
+                <div>
+                    <HiOutlineUserAdd className='text-gray-700'/>
 
-            </div>
+                </div>
                 <div>
                     <p className='text-gray-700'>+91 7048144030</p>
                 </div>
 
             </div>
             <div className='flex justify-center items-center gap-2 mt-4 ms-7'>
-            <div>
-                <HiOutlineMail className='text-gray-700'/>
+                <div>
+                    <HiOutlineMail className='text-gray-700'/>
 
-            </div>
+                </div>
                 <div>
                     <p className='text-gray-700'>yghori@asite.com</p>
                 </div>
@@ -48,16 +48,15 @@ export const AdminProfile = () => {
             </div>
 
             <div className='flex justify-center items-center gap-2 mt-4 mr-12'>
-            <div>
-                <HiOutlinePhotograph className='text-gray-700'/>
+                <div>
+                    <HiOutlinePhotograph className='text-gray-700'/>
 
-            </div>
+                </div>
                 <div>
                     <p className='text-gray-700'>PDT - |</p>
                 </div>
 
             </div>
-
 
 
         </div>

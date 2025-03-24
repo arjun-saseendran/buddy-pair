@@ -1,9 +1,9 @@
-import {AdminProfile} from "./components/AdminProfile/AdminProfile.jsx";
+import {AdminEditProfile} from "./components/AdminEditProfile/AdminEditProfile.jsx";
 
 export const App = () => {
   return (
     <>
-<AdminProfile/>
+<AdminEditProfile/>
     </>
   );
 };
