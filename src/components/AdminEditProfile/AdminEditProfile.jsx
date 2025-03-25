@@ -1,7 +1,9 @@
+import { Button } from "@material-tailwind/react";
+
 export const AdminEditProfile = () => {
   return (
     <div>
-      <div className="bg-white rounded-xl shadow-xl h-[800px] w-[600px]  md:h-[600px] mx-auto mt-10">
+      <div className="bg-white rounded-xl shadow-xl h-[900px] w-[260px] md:w-[500px] xl:w-[600px]  md:h-[600px] mx-auto mt-10">
         <h3 className=" text-xl ps-8 pt-10">Edit Profile</h3>
         <div className="grid md:grid-cols-2 mt-10 px-8 gap-8">
           <div className="relative">
@@ -122,6 +124,9 @@ export const AdminEditProfile = () => {
               <option value="option3">Option 3</option>
             </select>
           </div>
+        </div>
+        <div className=" mt-10">
+      <Button className=" px-10 py-4 ms-10 md:ms-52 bg-blue-700" >Save</Button>
         </div>
       </div>
     </div>

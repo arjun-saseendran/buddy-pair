@@ -8,7 +8,7 @@ import {
 export const AdminProfile = () => {
   return (
     <div>
-      <div className="bg-white text-center rounded-xl h-[500px] w-[300px] mx-auto mt-10 shadow-xl">
+      <div className="bg-white text-center w-full rounded-xl h-[500px] md:w-[300px] mx-auto mt-10 shadow-xl">
         <div className="border-2 border-[#ED2690] rounded-full inline-block p-1 text-center mt-10">
           <img
             className="w-32 h-32 rounded-full"

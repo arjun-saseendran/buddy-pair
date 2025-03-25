@@ -1,11 +1,8 @@
-import {AdminEditProfile} from "./components/AdminEditProfile/AdminEditProfile.jsx";
-import { Staff } from "./components/Staff/Staff.jsx";
-import { TotalWorkDone } from "./components/TotalWorkDone/TotalWorkDone.jsx";
-
+import { Admin } from "./pages/Admin";
 export const App = () => {
   return (
     <>
-      <TotalWorkDone/>
+      <Admin/>
     </>
   );
 };
