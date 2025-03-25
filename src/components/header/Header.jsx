@@ -11,7 +11,7 @@ export const Header = () => {
   };
   return (
     <nav className="mt-5">
-      <div className="md:flex md:justify-between w-5/6 md:max-w-7xl mx-auto">
+      <div className="md:flex me-6 md:me-0  md:justify-between md:w-[1300px] md:ms-20">
         <div className="flex justify-end md:justify-between gap-2">
           <div
             className={`relative  max-w-[300px] ${open ? "block" : "hidden"}`}

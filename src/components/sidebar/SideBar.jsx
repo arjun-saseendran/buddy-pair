@@ -11,7 +11,7 @@ import { RiCheckboxFill } from "react-icons/ri";
 export const SideBar = () => {
   return (
     <>
-      <nav className="absolute top-0 h-[1600px] md:h-[1200px] bg-white">
+      <nav className="absolute top-0 h-[2400px] md:h-[1200px] bg-white">
         <div className="flex flex-col space-y-16 justify-between items-center bg-white w-12 mt-7">
           <div className="flex flex-col space-y-16 items-center">
             <span>

@@ -5,14 +5,14 @@ import { TotalWorkDone } from "../components/TotalWorkDone/TotalWorkDone";
 
 export const Admin = () => {
   return (
-    <div className="md:flex gap-6 m-4 md:m-4 md:gap-2 xl:gap-6 xl:m-10">
-      <div>
+    <div className="md:flex  gap-6 m-4 md:m-4 md:gap-2 xl:gap-6 xl:m-10">
+      <div className="ms-10">
         <AdminProfile />
       </div>
-      <div>
+      <div className="ms-10">
         <AdminEditProfile />
       </div>
-      <div>
+      <div className="ms-10 md:ms-0">
         <div>
           <Staff />
         </div>
