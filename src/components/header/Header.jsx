@@ -5,7 +5,7 @@ import { FaRegBell } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
 
 export const Header = () => {
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
   const menuClicked = () => {
     setOpen(!open);
   };
@@ -33,7 +33,7 @@ export const Header = () => {
           </div>
         </div>
         <div
-          className={`flex justify-end mt-5 md:mt-0  ${
+          className={`flex justify-end mt-5 md:mt-0 md:block  ${
             open ? "block" : "hidden"
           }`}
         >

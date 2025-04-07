@@ -11,7 +11,7 @@ import { RiCheckboxFill } from "react-icons/ri";
 export const SideBar = () => {
   return (
     <>
-      <nav className="absolute top-0 h-[2400px] md:h-[1200px] bg-white">
+      <nav className="absolute top-0 bottom-0 bg-white">
         <div className="flex flex-col space-y-16 justify-between items-center bg-white w-12 mt-7">
           <div className="flex flex-col space-y-16 items-center">
             <span>
@@ -39,7 +39,7 @@ export const SideBar = () => {
               <FaCog className="cursor-pointer" />
             </span>
           </div>
-          <div className="absolute bottom-12">
+          <div className="bottom-0 pb-10">
             <FaArrowRight className="cursor-pointer" />
           </div>
         </div>

@@ -20,7 +20,7 @@ ChartJS.register(
   Tooltip,
   Legend,
   CategoryScale,
-  Filler
+  Filler,
 );
 
 export const BalanceAnalytics = () => {
@@ -52,7 +52,7 @@ export const BalanceAnalytics = () => {
         borderColor: "#FBBF24",
         backgroundColor: "rgba(251, 191, 36, 0.1)",
         pointBackgroundColor: labels.map((m) =>
-          m === selectedMonth ? "#FBBF24" : "transparent"
+          m === selectedMonth ? "#FBBF24" : "transparent",
         ),
         pointBorderColor: labels.map(() => "transparent"),
         pointRadius: labels.map((m) => (m === selectedMonth ? 6 : 0)),
@@ -66,7 +66,7 @@ export const BalanceAnalytics = () => {
         borderColor: "#EF4444",
         backgroundColor: "rgba(239, 68, 68, 0.1)",
         pointBackgroundColor: labels.map((m) =>
-          m === selectedMonth ? "#EF4444" : "transparent"
+          m === selectedMonth ? "#EF4444" : "transparent",
         ),
         pointBorderColor: labels.map(() => "transparent"),
         pointRadius: labels.map((m) => (m === selectedMonth ? 6 : 0)),
@@ -99,7 +99,7 @@ export const BalanceAnalytics = () => {
   };
 
   return (
-    <div className="mx-auto p-4 mt-4 ms-14  w-[255px] md:w-[600px] xl:w-full max-w-4xl md:p-6 bg-white rounded-2xl shadow-lg">
+    <div className="mx-auto p-4 mt-4 ms-14  w-[255px]  md:w-[1300px] xl:w-full xl:ms-28  max-w-7xl md:p-6 bg-white rounded-2xl shadow-lg">
       <div className="flex flex-col md:flex-row justify-between items-center mt-4 md:mt-6">
         <div className="text-xl  font-bold text-gray-800 mb-4 md:mb-0">
           Balance Analytics
