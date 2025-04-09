@@ -27,7 +27,8 @@ export const Expense = () => {
   };
 
   return (
-    <div className="bg-white pe-20 mt-20  py-4 ps-8 rounded-xl mx-auto w-[600px]">
+    <div className=" overflow-x-auto md:overflow-x-visible">
+    <div className="bg-white md:pe-20 mt-20 p-5  md:py-4 md:ps-8 rounded-xl w-[500px] h-[600px]">
       <h1 className="font-bold font-arial mb-10">Expense</h1>
       <div className="flex flex-col space-y-8">
         <div className="flex items-center justify-between">
@@ -173,6 +174,7 @@ export const Expense = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };

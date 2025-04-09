@@ -99,41 +99,46 @@ export const BalanceAnalytics = () => {
   };
 
   return (
-    <div className="mx-auto p-4 mt-4 ms-14  w-[255px]  md:w-[1300px] xl:w-full xl:ms-28  max-w-7xl md:p-6 bg-white rounded-2xl shadow-lg">
-      <div className="flex flex-col md:flex-row justify-between items-center mt-4 md:mt-6">
-        <div className="text-xl  font-bold text-gray-800 mb-4 md:mb-0">
-          Balance Analytics
-        </div>
-        <div className="flex flex-wrap items-center gap-4 text-sm text-gray-600">
-          <div className="text-center">
-            <div className="text-yellow-500 font-semibold">Expense</div>
-            <div className="font-bold">1,245</div>
+    <div className=" overflow-x-auto md:overflow-x-visible">
+      <div
+        className=" p-4 mt-4 w-[800px] md:w-[1180px]
+      md:p-6 bg-white rounded-2xl shadow-lg"
+      >
+        <div className="flex flex-col md:flex-row justify-between items-center mt-4 md:mt-6">
+          <div className="text-xl  font-bold text-gray-800 mb-4 md:mb-0">
+            Balance Analytics
           </div>
-          <div className="text-center">
-            <div className="text-red-500 font-semibold">Income</div>
-            <div className="font-bold">1,356</div>
+          <div className="flex flex-wrap items-center gap-4 text-sm text-gray-600">
+            <div className="text-center">
+              <div className="text-yellow-500 font-semibold">Expense</div>
+              <div className="font-bold">1,245</div>
+            </div>
+            <div className="text-center">
+              <div className="text-red-500 font-semibold">Income</div>
+              <div className="font-bold">1,356</div>
+            </div>
+            <select
+              className="border-2 text-blue-800 border-blue-800 px-3 py-1 rounded-xl text-sm focus:ring focus:ring-indigo-300"
+              onChange={(e) => setSelectedMonth(e.target.value)}
+            >
+              {labels.map((month) => (
+                <option key={month} value={month}>
+                  {month}
+                </option>
+              ))}
+            </select>
           </div>
-          <select
-            className="border-2 text-blue-800 border-blue-800 px-3 py-1 rounded-xl text-sm focus:ring focus:ring-indigo-300"
-            onChange={(e) => setSelectedMonth(e.target.value)}
-          >
-            {labels.map((month) => (
-              <option key={month} value={month}>
-                {month}
-              </option>
-            ))}
-          </select>
         </div>
-      </div>
 
-      <div className="relative w-full h-[200px] xl:h-[300px] md:h-[400px] md:my-6">
-        <Line data={data} options={options} />
-        {selectedMonth && (
-          <div className="absolute left-1/2 transform -translate-x-1/2 -top-6 bg-indigo-600 text-white md:px-3 py-1 rounded-md text-xs">
-            ${incomeData[labels.indexOf(selectedMonth)]} <br />
-            {selectedMonth} 2025
-          </div>
-        )}
+        <div className="relative w-full h-[200px] xl:h-[300px] md:h-[400px] md:my-6">
+          <Line data={data} options={options} />
+          {selectedMonth && (
+            <div className="absolute left-1/2 transform -translate-x-1/2 -top-6 bg-indigo-600 text-white md:px-3 py-1 rounded-md text-xs">
+              ${incomeData[labels.indexOf(selectedMonth)]} <br />
+              {selectedMonth} 2025
+            </div>
+          )}
+        </div>
       </div>
     </div>
   );

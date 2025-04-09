@@ -27,7 +27,8 @@ export const UnpaidUsers = () => {
   };
 
   return (
-    <div className="bg-white px-4 mt-20  py-4 rounded-xl mx-auto w-[640px]">
+    <div className=" overflow-x-auto md:overflow-x-visible">
+    <div className="md:ms-0 bg-white md:px-4 mt-20 p-5  md:py-4 rounded-xl w-[660px] h-[600px]">
       <h1 className="font-bold font-arial mb-10">Unpaid Users</h1>
       <div className="flex flex-col space-y-12">
         <div className="flex items-center">
@@ -133,5 +134,7 @@ export const UnpaidUsers = () => {
         </div>
       </div>
     </div>
+    </div>
+   
   );
 };

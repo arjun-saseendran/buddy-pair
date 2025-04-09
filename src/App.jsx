@@ -1,13 +1,13 @@
 import { Layout } from "../src/layout/Layout";
-import { BalanceAnalytics } from "./components/BalanceAnalytics/BalanceAnalytics";
+import { Finance } from "./pages/Finance";
 
 export const App = () => {
   return (
     <>
       <Layout />
-      <BalanceAnalytics/>
-
-      
+      <section>
+      <Finance />
+      </section>
     </>
   );
 };
