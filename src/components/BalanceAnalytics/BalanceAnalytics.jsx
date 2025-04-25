@@ -101,7 +101,7 @@ export const BalanceAnalytics = () => {
   return (
     <div className=" overflow-x-auto md:overflow-x-visible">
       <div
-        className=" p-4 mt-4 w-[800px] md:w-[1180px]
+        className=" p-4 mt-4 w-[800px] md:w-[670px] xl:w-[1300px]
       md:p-6 bg-white rounded-2xl shadow-lg"
       >
         <div className="flex flex-col md:flex-row justify-between items-center mt-4 md:mt-6">

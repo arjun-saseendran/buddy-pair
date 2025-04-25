@@ -1,6 +1,6 @@
 export const TotalUsers = () => {
   return(
-    <div className="bg-white flex items-center gap-4 md:px-4 px-1 ms-8 md:ms-0 rounded-lg md:w-72 py-2">
+    <div className="bg-white flex items-center gap-4 md:px-4 px-1   rounded-lg  w-80  md:w-[670px] xl:w-full py-2">
     <div>
       <span className="bg-[#4E44B4] inline-block w-12 h-12 rounded-full"></span>
     </div>

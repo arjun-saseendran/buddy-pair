@@ -1,6 +1,6 @@
 export const SubscriptionsPerMonth = () => {
   return (
-    <div className="bg-white flex items-center gap-4 px-1 md:px-4 rounded-lg ms-8 md:ms-0 md:w-72 py-2">
+    <div className="bg-white flex items-center gap-4 px-1 md:px-4 rounded-lg  w-80 md:w-[670px] xl:w-full py-2">
       <div>
         <span className="bg-[#FDC43E] inline-block w-12 h-12 rounded-full"></span>
       </div>

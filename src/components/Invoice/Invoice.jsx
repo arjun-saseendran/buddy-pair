@@ -3,7 +3,7 @@ import { FaFileInvoice } from "react-icons/fa";
 
 export const Invoice = () => {
   return (
-    <div className="mx-auto md:mx-20 mt-10 w-[790px] overflow-x-auto md:overflow-x-visible">
+    <div className="mx-auto md:mx-20 mt-10 w-[790px] overflow-x-auto xl:overflow-x-visible">
       <div className="mt-10 flex flex-col space-y-4 min-w-[800px]">
         <div className="flex gap-2 justify-around items-center">
           <div className="ms-4">
